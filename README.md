@@ -10,9 +10,9 @@ This repo collects the projects I worked on during my Master's. They cover machi
 | Project | Module | Type | Main skills |
 | --- | --- | --- | --- |
 | [RedPill Verify](#1-redpill-verify-verified-milestone-payments-for-a-uk-fintech) | Interdisciplinary Collaborative Project | Client project, team lead | Synthetic data design, fraud and risk analysis, pilot design |
-| [Adobe Client Pitch](#2-adobe-client-pitch-genai-in-higher-education) | Interdisciplinary Collaborative Project | Client project, team lead | Framework design, GenAI research, pitching |
+| [Adobe Client Pitch(ICP)](#2-adobe-client-pitch-genai-in-higher-education) | Interdisciplinary Collaborative Project | Client project, team lead | Framework design, GenAI research, pitching |
 | [ShopSense AI](#3-shopsense-ai-explainable-recommendation-and-responsible-ai) | AI: Vision and Reality | Individual | Explainable AI, recommender systems, AI governance |
-| [Weather Activity Recommender](#4-local-weather-analyser-with-smart-activity-recommender) | Fundamentals of Digital Technologies | Group of five | Python, scikit-learn, decision logic |
+| [Weather Activity Recommender(Fundamentals of digital Tech)](#4-local-weather-analyser-with-smart-activity-recommender) | Fundamentals of Digital Technologies | Group of five | Python, scikit-learn, decision logic |
 | [WRSX Simulation](#5-wrsx-group-strategic-plan-and-board-simulation) | Strategic Management | Group of six | Financial and strategic analysis |
 
 ---
