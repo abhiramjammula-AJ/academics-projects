@@ -1,0 +1,22 @@
+photo,milestone,zone,declared_capture_time,declared_device,file
+P01,M1,Zone A,2026-09-10 10:12:04,SER-AE-0001,photos/P01.jpg
+P02,M1,Zone A,2026-09-10 10:14:40,SER-AE-0001,photos/P02.jpg
+P03,M1,Zone B,2026-09-11 11:02:19,SER-AE-0001,photos/P03.jpg
+P04,M1,Zone C,2026-09-11 21:40:55,SER-AE-0002,photos/P04.jpg
+P05,M2,Zone A,2026-09-24 09:31:02,SER-AE-0001,photos/P05.jpg
+P06,M2,Zone B,2026-09-24 10:05:47,SER-AE-0002,photos/P06.jpg
+P07,M2,Zone C,2026-09-25 14:20:11,SER-AE-0001,photos/P07.jpg
+P08,M2,Zone C,2026-09-25 14:26:30,SER-AE-0002,photos/P08.jpg
+P09,M3,Zone A,2026-10-06 08:55:13,SER-AE-0001,photos/P09.jpg
+P10,M3,Zone B,2026-10-06 17:48:09,SER-AE-0002,photos/P10.jpg
+P11,M3,Zone B,2026-10-07 09:10:44,SER-AE-0001,photos/P11.jpg
+P12,M3,Zone C,2026-10-07 09:40:02,SER-AE-0001,photos/P12.jpg
+P12R,M3,Zone C,2026-10-07 09:42:31,SER-AE-0001,photos/P12R.jpg
+P13,M3,Zone C,2026-08-20 13:05:00,SER-AE-0002,photos/P13.jpg
+P14,M3,Zone A,2026-10-07 11:15:26,SER-AE-0002,photos/P14.jpg
+P15,M3,Zone B,,,photos/P15.jpg
+P16,M3,Zone C,2026-10-07 15:30:12,SER-AE-0001,photos/P16.jpg
+P17,M3,Zone A,2026-10-08 10:02:51,SER-XX-9931,photos/P17.jpg
+P18,M3,Zone C,2026-10-07 09:50:40,SER-AE-0002,photos/P18.jpg
+P19,L1,Zone A,2026-10-02 10:20:00,SER-AE-0002,photos/P19.jpg
+P20,L1,Zone B,2026-10-02 10:48:18,SER-AE-0002,photos/P20.jpg

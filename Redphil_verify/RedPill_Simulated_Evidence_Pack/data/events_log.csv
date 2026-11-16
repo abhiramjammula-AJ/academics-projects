@@ -1,0 +1,27 @@
+timestamp,actor,email_or_client,device,action,reference,detail
+2026-09-01 09:00:00,Brightwell,s.okafor@brightwellconstruction.co.uk,SER-BW-0101,contract_uploaded,RPV-SIM-001,Subcontract extract uploaded
+2026-09-01 09:20:00,RedPill,system,-,conditions_drafted,RPV-SIM-001,AI drafted 4 milestone conditions
+2026-09-01 15:02:00,Both,-,-,conditions_approved,RPV-SIM-001,Both parties approved conditions v1
+2026-09-06 10:00:00,Brightwell,s.okafor@brightwellconstruction.co.uk,SER-BW-0101,contract_uploaded,RPV-SIM-002,"Second subcontract, same parties, same project"
+2026-09-08 09:00:00,Brightwell,p.nair@brightwellconstruction.co.uk,SER-BW-0101,milestone_funded,M1,"GBP 21,000 paid into restricted account"
+2026-09-12 16:40:00,Ashdown,d.mercer@ashdownelectrical.co.uk,SER-AE-0001,evidence_submitted,M1,"Photos P01-P04, DN-1001, INV-AE-2039"
+2026-09-14 11:25:00,Brightwell,s.okafor@brightwellconstruction.co.uk,SER-BW-0101,milestone_accepted,M1,"Walk-round complete, accepted"
+2026-09-14 11:26:00,RedPill,system,-,release_instructed,PAY-0001,"Release GBP 21,000 to verified payee ending 4417"
+2026-09-21 09:00:00,Brightwell,p.nair@brightwellconstruction.co.uk,SER-BW-0101,milestone_funded,M2,"GBP 25,200 paid into restricted account"
+2026-09-26 17:05:00,Ashdown,d.mercer@ashdownelectrical.co.uk,SER-AE-0001,evidence_submitted,M2,"Photos P05-P08, DN-1002, INV-AE-2041; claims 2,400m CB-25S"
+2026-09-27 08:30:00,Ashdown,d.mercer@ashdownelectrical.co.uk,SER-AE-0001,variation_added,VO-03,"Additional containment Zone D, +GBP 4,800; no buyer approval recorded"
+2026-09-28 10:00:00,Brightwell,s.okafor@brightwellconstruction.co.uk,SER-BW-0101,dispute_raised,M2,Reason: 'not happy with work'; no evidence cited
+2026-09-30 09:12:00,Unknown,accounts@ashdown-electrical.co,unknown,bank_detail_change_request,PAYEE,Request to change payee account to one ending 9902; no call-back recorded
+2026-10-02 10:00:00,RedPill,system,-,release_instructed,PAY-0002,"Release GBP 25,200 for M2 queued"
+2026-10-02 12:30:00,RedPill,system,-,release_reversed,PAY-0002,Release reversed pending dispute review
+2026-10-03 10:10:00,Ashdown,d.mercer@ashdownelectrical.co.uk,SER-AE-0002,evidence_submitted,L1,"Photos P19-P20, DN-1004"
+2026-10-05 09:00:00,Brightwell,p.nair@brightwellconstruction.co.uk,SER-BW-0101,milestone_funded,M3,"GBP 21,000 paid into restricted account"
+2026-10-06 16:00:00,Brightwell,s.okafor@brightwellconstruction.co.uk,SER-BW-0101,inspection_recorded,M3,Inspection note IN-03 recorded
+2026-10-08 02:12:55,Ashdown,d.mercer@ashdownelectrical.co.uk,SER-AE-0001,evidence_submitted,M3,"Photos P09-P18, INV-AE-2041"
+2026-10-08 02:13:05,Brightwell,s.okafor@brightwellconstruction.co.uk,DEV-NEW-77,milestone_accepted,M3,Accepted 10 seconds after submission from a new device
+2026-10-09 09:00:00,Brightwell,s.okafor@brightwellconstruction.co.uk,SER-BW-0101,dispute_raised,M3,Reason: 'quality concerns'; no evidence cited
+2026-10-10 14:00:00,Integration,api-client-7,-,release_instructed,API-0009,"Release GBP 21,000 for M3 via API; no approval record attached"
+2026-10-12 11:00:00,Ashdown,accounts@ashdownelectrical.co.uk,SER-AE-0002,refund_requested,REF-0003,Refund to buyer requested against PAY-0002 (already reversed)
+2026-10-14 09:00:00,Brightwell,p.nair@brightwellconstruction.co.uk,SER-BW-0101,milestone_funded,M4,"GBP 16,800 paid into restricted account"
+2026-10-16 15:20:00,Ashdown,d.mercer@ashdownelectrical.co.uk,SER-AE-0001,evidence_submitted,M4,"Test results TR-04, certificate EIC-SIM-0417"
+2026-10-17 10:00:00,Brightwell,s.okafor@brightwellconstruction.co.uk,SER-BW-0101,dispute_raised,M4,Reason: 'need more time'; no evidence cited

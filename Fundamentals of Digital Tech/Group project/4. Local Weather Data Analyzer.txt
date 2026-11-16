@@ -1,0 +1,81 @@
+4. Local Weather Data Analyzer
+Common Trunk Abstract
+Analyze historical weather data to discover patterns, understand climate trends, and make
+informed predictions.
+Common Trunk (Group Work)
+• Load weather dataset (temperature, rainfall, humidity from CSV)
+• Clean data and handle missing values
+• Calculate basic statistics (min, max, average temperature per month)
+• Create simple line plots for temperature over time
+Common Trunk Example
+The group loads weather_data.csv with 5 years of daily data: date, temp_celsius,
+rainfall_mm, humidity_percent. They build functions: load_data(),
+clean_missing_values() (replace with monthly average), monthly_stats(), and
+plot_temperature(). For January 2024: min -2°C, max 8°C, average 3°C.
+Student A: Seasonal Pattern Detector with Visualizations
+Individual Abstract: Identify seasonal patterns by grouping data into seasons (spring,
+summer, autumn, winter) and comparing temperature, rainfall, and sunshine patterns.
+Create visualizations showing which months are best for outdoor activities.
+Individual Example: Student A groups 5 years of data by season: Spring (Mar-May): Avg
+temp 12°C, rainfall 45mm/month, 15 rainy days/month (50% probability). Summer (Jun-
+Aug): Avg temp 24°C, rainfall 25mm/month, 8 rainy days/month (26% probability).
+Autumn (Sep-Nov): Avg temp 14°C, rainfall 60mm/month, 18 rainy days/month (60%
+probability). Winter (Dec-Feb): Avg temp 4°C, rainfall 55mm/month, 16 rainy
+days/month (53% probability). Box plots show: summer has least variability (std dev 2°C)
+while spring is most unpredictable (std dev 6°C). Heatmap shows: hottest month is July
+(avg 26°C), coldest is January (avg 2°C). Rainfall pattern: driest in July (18mm), wettest in
+October (75mm). Recommendation for tourism board: “Best months for outdoor events:
+June, July, August (74% chance of dry weather, average 24°C). Avoid October (very rainy).”
+The visualizer creates a 12-month summary chart showing temperature (line) and rainfall
+(bars) overlaid, making patterns obvious at a glance.
+Student B: Rain Prediction System
+Individual Abstract: Build a probabilistic model to predict likelihood of rain based on
+current weather conditions (humidity, pressure, temperature). Use historical correlations
+to make predictions.
+Individual Example: Student B analyzes 1,825 days of data. They find correlations: High
+humidity (>80%) + Low pressure (<1010 hPa): Rain occurred 85% of the time (156 out
+of 183 days). High humidity + Normal pressure (1010-1020): Rain occurred 45% of the
+time. Low humidity (<60%): Rain occurred only 8% of the time. Today’s conditions:
+Humidity 82%, Pressure 1008 hPa, Temperature 18°C. The prediction model calculates:
+Conditions match “high humidity + low pressure” pattern → 85% probability of rain.
+Recommendation: “Bring an umbrella! Strong chance of rain today.” The model also
+considers: Temperature < 0°C and humidity high → snow instead of rain (occurred 90% of
+the time in historical data). Another example: Humidity 55%, Pressure 1018 hPa → Pattern
+matches “low humidity + normal pressure” → 12% probability of rain. Recommendation:
+“Clear skies expected!” Student B creates a confusion matrix to validate: Model predicted
+rain correctly 80% of the time, predicted no-rain correctly 75% of the time (good
+accuracy!).
+Student C: Temperature Trend Analyzer (Climate Change Detection)
+Individual Abstract: Use linear regression to analyze temperature trends over multiple
+years. Determine if temperatures are increasing, decreasing, or stable. Quantify climate
+change in your local area.
+Individual Example: Student C analyzes summer temperatures (Jun-Aug) over 20 years:
+2005: 22.1°C avg, 2010: 22.8°C, 2015: 23.5°C, 2020: 24.2°C, 2025: 24.9°C. Linear
+regression: y = 0.14x + 22.0 (where x = years since 2005). The slope (+0.14°C per year)
+means temperatures are rising by 1.4°C per decade! Visualization: scatter plot with trend
+line clearly shows upward slope. Statistical test: correlation coefficient r = 0.91 (strong
+positive correlation). P-value = 0.003 (statistically significant, not random variation).
+Prediction: By 2030, summer average will be 25.9°C (2.4°C warmer than 2005). Student C
+also analyzes winter temperatures: 2005: 3.8°C, 2025: 5.1°C. Trend: +0.065°C/year (slower
+warming but still increasing). Rainfall trend: -2mm/year (getting drier). Conclusion: “Our
+region is experiencing measurable climate change: summers 1.4°C warmer per decade,
+winters slightly warmer, and decreasing rainfall. This is consistent with global warming
+patterns.” Comparison with global data (if available) shows local warming rate is faster
+than global average (+0.14°C vs +0.08°C per year).
+Student D: Weather Anomaly Detector
+Individual Abstract: Identify unusual weather events (heat waves, cold snaps, storms)
+using statistical methods. Calculate standard deviations and flag days that are significantly
+different from normal patterns.
+Individual Example: Student D calculates monthly normals: July average = 25°C, std dev =
+2°C. Definition of anomaly: any day more than 2 standard deviations from mean. July 15,
+2024: Temperature = 35°C. Z-score = (35 - 25) ÷ 2 = +5.0 (extreme heat wave! 5 standard
+deviations above normal). January 20, 2024: Temperature = -12°C. January normal = 3°C,
+std dev = 3°C. Z-score = (-12 - 3) ÷ 3 = -5.0 (extreme cold snap!). Over 5 years, the detector
+finds: 12 heat waves (z-score > +2), 8 cold snaps (z-score < -2), 25 heavy rainfall days
+(>50mm in 24 hours, z-score > +3), 3 record-breaking days (hottest/coldest ever).
+Visualization: Calendar heatmap showing anomalies in red (hot) and blue (cold). Timeline
+shows anomalies are becoming more frequent: 2020 had 2 heat waves, 2024 had 5 heat
+waves (climate change impact?). The system also detects: “Unusual pattern: 3 consecutive
+days above 30°C in April (historically rare, only happened twice in 20 years).” Real-time
+alerting: “Today’s forecast shows 36°C—this would be a record high for June. Stay
+hydrated!”

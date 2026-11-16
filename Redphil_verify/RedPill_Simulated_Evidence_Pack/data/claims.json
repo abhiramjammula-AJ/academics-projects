@@ -1,0 +1,254 @@
+{
+  "simulated": true,
+  "notice": "SIMULATED - fictional parties, site and figures. Built by Aston AL4ICP team for RedPill Verify testing only.",
+  "site": {
+    "name": "Unit 4, Kestrel Yard (fictional)",
+    "city": "Bristol",
+    "lat": 51.4545,
+    "lon": -2.5879
+  },
+  "buyer": "Brightwell Construction Ltd (fictional)",
+  "supplier": "Ashdown Electrical Ltd (fictional)",
+  "payee_account_ending": "4417",
+  "claims": [
+    {
+      "milestone": "M1",
+      "contract": "RPV-SIM-001",
+      "name": "Containment installed",
+      "value_gbp": 21000,
+      "photos": [
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "materials_claimed": [
+        {
+          "code": "CT-150",
+          "qty": 180,
+          "unit": "m"
+        },
+        {
+          "code": "CT-300",
+          "qty": 90,
+          "unit": "m"
+        },
+        {
+          "code": "CT-BND",
+          "qty": 24,
+          "unit": "each"
+        },
+        {
+          "code": "CT-CPL",
+          "qty": 120,
+          "unit": "each"
+        },
+        {
+          "code": "TR-100",
+          "qty": 120,
+          "unit": "m"
+        },
+        {
+          "code": "TR-BND",
+          "qty": 18,
+          "unit": "each"
+        },
+        {
+          "code": "CD-20",
+          "qty": 300,
+          "unit": "m"
+        },
+        {
+          "code": "CD-25",
+          "qty": 120,
+          "unit": "m"
+        },
+        {
+          "code": "CD-BOX",
+          "qty": 140,
+          "unit": "each"
+        },
+        {
+          "code": "CD-SAD",
+          "qty": 600,
+          "unit": "each"
+        },
+        {
+          "code": "FX-ROD",
+          "qty": 150,
+          "unit": "m"
+        },
+        {
+          "code": "FX-UNI",
+          "qty": 80,
+          "unit": "m"
+        },
+        {
+          "code": "FX-ANC",
+          "qty": 6,
+          "unit": "box"
+        }
+      ],
+      "condition": "Cable tray, trunking and conduit installed to drawings E-101/E-102 in Zones A-C",
+      "evidence_required": "In-app photos of each zone (min 2 per zone); delivery notes for containment; buyer walk-round sign-off"
+    },
+    {
+      "milestone": "M2",
+      "contract": "RPV-SIM-001",
+      "name": "Cabling pulled",
+      "value_gbp": 25200,
+      "photos": [
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "materials_claimed": [
+        {
+          "code": "CB-25S",
+          "qty": 2400,
+          "unit": "m"
+        },
+        {
+          "code": "CB-15S",
+          "qty": 900,
+          "unit": "m"
+        },
+        {
+          "code": "CB-6E",
+          "qty": 300,
+          "unit": "m"
+        },
+        {
+          "code": "CB-SWA4",
+          "qty": 160,
+          "unit": "m"
+        },
+        {
+          "code": "CB-SWA10",
+          "qty": 60,
+          "unit": "m"
+        },
+        {
+          "code": "CB-GLD",
+          "qty": 24,
+          "unit": "each"
+        },
+        {
+          "code": "CB-CLT",
+          "qty": 80,
+          "unit": "each"
+        },
+        {
+          "code": "CB-TIE",
+          "qty": 10,
+          "unit": "pack"
+        }
+      ],
+      "condition": "All circuits pulled per cable schedule; quantities within delivered totals",
+      "evidence_required": "In-app photos of each zone; cable quantities claimed vs delivery notes; invoice"
+    },
+    {
+      "milestone": "M3",
+      "contract": "RPV-SIM-001",
+      "name": "Back boxes and first-fix complete",
+      "value_gbp": 21000,
+      "photos": [
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P12R",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18"
+      ],
+      "materials_claimed": [
+        {
+          "code": "BX-1G",
+          "qty": 160,
+          "unit": "each"
+        },
+        {
+          "code": "BX-2G",
+          "qty": 90,
+          "unit": "each"
+        },
+        {
+          "code": "BX-FLR",
+          "qty": 12,
+          "unit": "each"
+        },
+        {
+          "code": "BX-JB",
+          "qty": 40,
+          "unit": "each"
+        },
+        {
+          "code": "BX-GRM",
+          "qty": 8,
+          "unit": "pack"
+        },
+        {
+          "code": "FS-PAD",
+          "qty": 250,
+          "unit": "each"
+        },
+        {
+          "code": "FS-SLV",
+          "qty": 30,
+          "unit": "each"
+        },
+        {
+          "code": "DB-12",
+          "qty": 2,
+          "unit": "each"
+        },
+        {
+          "code": "LB-CBL",
+          "qty": 6,
+          "unit": "pack"
+        }
+      ],
+      "condition": "All back boxes fixed and wired, fire-stopping at penetrations, ready for plaster",
+      "evidence_required": "In-app photos of each zone including fire-stopping; buyer inspection note dated after completion"
+    },
+    {
+      "milestone": "M4",
+      "contract": "RPV-SIM-001",
+      "name": "First-fix testing and certificate",
+      "value_gbp": 16800,
+      "photos": [],
+      "materials_claimed": [],
+      "condition": "Continuity and insulation resistance tests passed; certificate for this address; independent inspection",
+      "evidence_required": "Test results; installation certificate for Unit 4 Kestrel Yard; independent inspection record"
+    },
+    {
+      "milestone": "L1",
+      "contract": "RPV-SIM-002",
+      "name": "Emergency lighting first-fix",
+      "value_gbp": 42000,
+      "photos": [
+        "P19",
+        "P20"
+      ],
+      "materials_claimed": [
+        {
+          "code": "CB-FP15",
+          "qty": 400,
+          "unit": "m"
+        },
+        {
+          "code": "EL-BOX",
+          "qty": 48,
+          "unit": "each"
+        }
+      ],
+      "condition": "Emergency lighting circuits pulled and boxed per drawing E-110",
+      "evidence_required": "In-app photos; delivery notes"
+    }
+  ]
+}
