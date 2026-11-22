@@ -7,13 +7,29 @@
 
 This repo collects the projects I worked on during my Master's. They cover machine learning, explainable and responsible AI, data design for fraud detection, and business strategy. Some are individual and some are team projects, and for each one I've said which part was mine.
 
-| Project | Module | Type | Main skills |
-| --- | --- | --- | --- |
-| [RedPill Verify](#1-redpill-verify-verified-milestone-payments-for-a-uk-fintech) | Interdisciplinary Collaborative Project | Client project, team lead | Synthetic data design, fraud and risk analysis, pilot design |
-| [Adobe Client Pitch(ICP)](#2-adobe-client-pitch-genai-in-higher-education) | Interdisciplinary Collaborative Project | Client project, team lead | Framework design, GenAI research, pitching |
-| [ShopSense AI](#3-shopsense-ai-explainable-recommendation-and-responsible-ai) | AI: Vision and Reality | Individual | Explainable AI, recommender systems, AI governance |
-| [Weather Activity Recommender(Fundamentals of digital Tech)](#4-local-weather-analyser-with-smart-activity-recommender) | Fundamentals of Digital Technologies | Group of five | Python, scikit-learn, decision logic |
-| [WRSX Simulation](#5-wrsx-group-strategic-plan-and-board-simulation) | Strategic Management | Group of six | Financial and strategic analysis |
+| Project | Module | Type | Main skills | Files |
+| --- | --- | --- | --- | --- |
+| [RedPill Verify](#1-redpill-verify-verified-milestone-payments-for-a-uk-fintech) | Interdisciplinary Collaborative Project | Client project, team lead | Synthetic data design, fraud and risk analysis, pilot design | [Open folder](01_RedPill_Verify) |
+| [Adobe Client Pitch (ICP)](#2-adobe-client-pitch-genai-in-higher-education) | Interdisciplinary Collaborative Project | Client project, team lead | Framework design, GenAI research, pitching | [Open folder](02_Adobe_GenAI_Pitch) |
+| [ShopSense AI](#3-shopsense-ai-explainable-recommendation-and-responsible-ai) | AI: Vision and Reality | Individual | Explainable AI, recommender systems, AI governance | [Open folder](03_ShopSense_AI) |
+| [Weather Activity Recommender](#4-local-weather-analyser-with-smart-activity-recommender) | Fundamentals of Digital Technologies | Group of five | Python, scikit-learn, decision logic | [Open folder](04_Weather_Activity_Recommender) |
+| [WRSX Simulation](#5-wrsx-group-strategic-plan-and-board-simulation) | Strategic Management | Group of six | Financial and strategic analysis | [Open folder](05_WRSX_Strategy_Simulation) |
+
+---
+
+## Repository structure
+
+```
+academics-projects/
+├── 01_RedPill_Verify/                 Report, slides and simulated evidence pack
+├── 02_Adobe_GenAI_Pitch/              GenAI Readiness Index and campaign
+├── 03_ShopSense_AI/                   Consultancy report and slides
+├── 04_Weather_Activity_Recommender/
+│   ├── my_contribution/               My report, code and design documents
+│   ├── project_brief/                 Module brief, proposal and team schedule
+│   └── data/                          Dataset and column descriptions
+└── 05_WRSX_Strategy_Simulation/       Strategic report, presentation and board meetings
+```
 
 ---
 
@@ -41,6 +57,11 @@ This repo collects the projects I worked on during my Master's. They cover machi
 
 > The evidence pack uses fictional firms and data. Its answer key isn't included here.
 
+**Files:**
+- [Supporting report (PDF)](01_RedPill_Verify/RedPill_Verify_Supporting_Report.pdf)
+- [Presentation slides (PDF)](01_RedPill_Verify/RedPill_Verify_Presentation_Slides.pdf)
+- [Simulated evidence pack](01_RedPill_Verify/RedPill_Simulated_Evidence_Pack): documents, data, photos and SHA-256 manifest
+
 ---
 
 ## 2. Adobe Client Pitch: GenAI in Higher Education
@@ -56,6 +77,8 @@ This repo collects the projects I worked on during my Master's. They cover machi
 
 **My role:** I led the team, set the project direction, brought everyone's sections together into one pitch, and directed the final pitch video.
 
+**Files:** [GenAI Readiness Index and campaign (PDF)](02_Adobe_GenAI_Pitch/Create_with_Confidence_GenAI_Readiness_Index.pdf)
+
 ---
 
 ## 3. ShopSense AI: Explainable Recommendation and Responsible AI
@@ -70,6 +93,8 @@ A consultancy report for a fictional AI e-commerce platform that wants to keep m
 - **Faithful explanations, not just convincing ones.** An LLM can write a reason that sounds right but isn't why the model chose the item. Explanations should come from the recommender's real ranking signals and be tested against how the model actually behaves.
 - **Popularity-bias monitoring**, so long-tail products and smaller sellers aren't pushed out.
 - **Ongoing governance** using the NIST Generative AI Profile, EU AI Act risk tiers (Articles 5 and 50) and co-design with customers, sellers and compliance staff.
+
+**Files:** [Report (Word)](03_ShopSense_AI/ShopSense_AI_Report.docx) · [Slides (PowerPoint)](03_ShopSense_AI/ShopSense_AI_Slides.pptx)
 
 ---
 
@@ -96,6 +121,12 @@ Each activity has its own thresholds, because each one is affected by the weathe
 
 **Tech:** Python, pandas, scikit-learn
 
+**Files:**
+- [Individual report (Word)](04_Weather_Activity_Recommender/my_contribution/Individual_Report_Smart_Activity_Recommender.docx)
+- [Notebook: analysis, rain model and recommender](04_Weather_Activity_Recommender/my_contribution/weather_analysis_and_recommender.ipynb)
+- [Implementation](04_Weather_Activity_Recommender/my_contribution/Implementation_Smart_Activity_Recommender.docx) · [Code explanation](04_Weather_Activity_Recommender/my_contribution/Code_Explanation.docx) · [Problem statement and methodology](04_Weather_Activity_Recommender/my_contribution/Problem_Statement_and_Methodology.docx) · [Common trunk design](04_Weather_Activity_Recommender/my_contribution/Common_Trunk_Design.docx)
+- [Project brief](04_Weather_Activity_Recommender/project_brief)
+
 ---
 
 ## 5. WRSX Group: Strategic Plan and Board Simulation
@@ -111,6 +142,8 @@ WRSX is a fictional listed advertising group in *The Strategy Experience* simula
 **My role:** I proposed the agenda items and options at each board meeting before the team voted, and wrote an individual review of our decision-making.
 
 *Case data: The Strategy Experience, Learning Dynamics Ltd.*
+
+**Files:** [Strategic report (PDF)](05_WRSX_Strategy_Simulation/WRSX_Strategic_Report_Group_H.pdf) · [Presentation (PowerPoint)](05_WRSX_Strategy_Simulation/WRSX_Group_H_Presentation.pptx) · [Board meetings (Word)](05_WRSX_Strategy_Simulation/WRSX_Board_Meetings.docx)
 
 ---
 
